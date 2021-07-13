@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Quicksand:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Kalam:wght@400;700&family=Quicksand:wght@500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    background-color: #efefef;
+}
+main {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(253, 245, 234);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+}
+h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Quicksand', sans-serif;
+}
+img {
+    width: 100%;
+    margin: 10px;
+    padding: 20px;
+
+}
+p {
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: inherit;
+    font-family: 'Quicksand', sans-serif;
+}
+a {
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    margin: 20px;
+    padding: 20px;
+    font-family: 'Kalam', cursive;
+    font-weight: bold;
+}

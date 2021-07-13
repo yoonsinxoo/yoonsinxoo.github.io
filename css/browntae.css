@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Kalam:wght@400;700&family=Merienda:wght@700&family=Quicksand:wght@500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body {
+    height: 100%;
+    background-color: #efefef
+}
+main {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(228, 204, 172, 0.87);
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+}
+h1 {
+    width: 100%;
+    text-align: center;
+    margin: 20px;
+    font-size: 50px;
+    font-family: 'Kalam', cursive;
+}
+.photo {
+    width: calc(50% - 40px);
+    height: calc((35vw - 40px) / 16 * 9);
+    margin: 20px;
+    padding: 20px;
+    background-color: grey;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ease-in-out;
+}
+.photo:hover {
+    transform: rotate(3deg) scale(1.07);
+    box-shadow: rgba(0, 0, 0, 0.3);
+}
+.photo1 {
+    background-image: url(/images/img1.jpg);
+} 
+.photo2 {
+    background-image: url(/images/img2.jpg);
+} 
+.photo3 {
+    background-image: url(/images/img3.jpg);
+} 
+.photo4 {
+    background-image: url(/images/img4.jpg);
+} 
+.photo5 {
+    background-image: url(/images/img5.jpg);
+} 
+.photo6 {
+    background-image: url(/images/img6.jpg);
+} 
+.photo7 {
+    background-image: url(/images/img7.jpg);
+} 
+.photo8 {
+    background-image: url(/images/img8.jpg);
+} 
+.photo9 {
+    background-image: url(/images/img9.jpg);
+} 
+.photo10 {
+    background-image: url(/images/img10.jpg);
+} 
+
